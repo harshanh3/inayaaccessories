@@ -1,0 +1,222 @@
+#btn{
+    color: black;
+    background-color:#f1d0bd;
+    padding: 10px;
+ }
+ #head{
+    background-color:#f1d0bd ;
+    margin-top: 70px;
+    flex-wrap: wrap;
+ }
+ .text{
+display: flex;
+justify-content: space-around;
+margin-top: -180px;
+margin-right: 190px;
+margin-left: 75px;
+font-size: 20px;
+flex-wrap: wrap;
+ }
+ .most-love{
+    margin-top: 140px;
+ }
+ 
+ .per{
+   margin-top: -430px;
+   margin-left: 10px;
+ }
+#btn-1{
+   margin-top: -600px;
+   color: white;
+   background-color: orangered;
+   border: none;
+}
+.rs{
+   color:#cb8161;
+}
+.card{
+   overflow: hidden;
+}
+.intro{
+   color: white;
+   background-color: #f1d0bd;
+  margin-left: 220px;
+ padding: 6px;
+ box-sizing: border-box;
+}
+.icons{
+   visibility: hidden;
+   opacity: 0;
+}
+.arrows{
+   display: flex;
+   margin-top: 8px;
+   position: absolute;
+}
+.quick:hover{
+   background-color:#f1d0bd;
+   transition: 0.6s;
+}
+.search{
+   text-align: center;
+    padding: 5px;
+   margin-top: 200px;
+   color: white;
+   visibility: hidden;
+ 
+}
+.card-love:hover .search{
+   visibility: visible;
+
+   color:#f1d0bd;
+}
+
+.card-love:hover{
+   cursor: pointer;
+}
+.card-love:hover p{
+   color: #cb8161;
+}
+ .card-love:hover .intro{
+   margin-left: 220px;
+   opacity: 1;
+   visibility: visible;
+   
+ }
+.card-love:hover .icons{
+   opacity: 1;
+   visibility: visible;
+  
+}
+#link{
+   font-size: 35px;
+   margin-top: 80px;
+   text-decoration: none;
+   margin-right: 40px;
+  color: black;
+}
+.perc{
+   margin-top: -500px;
+}
+.search-2{
+   text-align: center;
+   padding: 5px;
+  margin-top: 280px;
+  color: white;
+  visibility: hidden;
+}
+.intro-1{
+   color: white;
+   background-color: #f1d0bd;
+  margin-left: 320px;
+ padding: 6px;
+ box-sizing: border-box;
+}
+.card-love:hover .search-2{
+   visibility: visible;
+
+   color:#f1d0bd;
+}
+.shop{
+   
+   display: flex;
+   justify-content: left;
+}
+.slider {
+   text-align: center;
+   border-radius: 20px;
+
+}
+
+.slider-range {
+   width: 100%;
+   margin: 10px 0;
+}
+
+.video-container {
+   
+   width: 80%;
+   max-width: 800px;
+
+}
+
+video {
+
+   padding: 20px;
+   width: 250px;
+   height: 400px;
+   
+}
+
+.look{
+   display: flex;
+   justify-content: center;
+}
+.next{
+   background: none;
+   border: 0px;
+  border-radius: 40px;
+}
+.brands{
+  margin-left: 630px;
+  margin-top: -60px;
+}
+.slide-content{
+margin-right: 200px;
+ width: 480px;
+
+
+}
+.card-content{
+   margin-left: 200px;
+   border-radius: 25px;
+   background-color:#fbefef;
+}
+.cardd{
+   padding: 10px;
+}
+.slide-container{
+   padding: 40px;
+   margin-left: 350px;
+   max-width: 800px;
+   width: 700px;
+   background-color: #581d1d;
+}
+.up{
+   
+}
+.footer{
+ background-color:#f1d0bd;
+}
+.foot:hover {
+   color: #cb8161 ;
+}
+@media screen and (max-width: 750px){
+.spll {
+   flex-wrap: wrap;
+}
+#head{
+   flex-wrap: wrap;
+}
+.text{
+   margin-top: -200px;
+  display: flex;
+  justify-content: space-between;
+}
+.nec{
+   flex-wrap: wrap;
+}
+#myVideo{
+   flex-wrap: wrap;
+}
+}
+
+.card {
+   transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+   border: 2px solid transparent;
+ }
+ .card:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+   border-color: #007bff; /* Change to the color you want */
+    }

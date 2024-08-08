@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+<body>
+    <!-- navbar -->
+    <nav  class="navbar navbar-expand-lg bg-body-tertiary">
+        <div id="home" class="container-fluid">
+         <img class="ms-5 mb-3" width="170px" src="./images/download-removebg-preview.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active ms-5 text-light-emphasis" aria-current="page" href="#">WATERPROOF COLLETION</a>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active ms-2 text-light-emphasis" aria-current="page" href="#">RAKHI SPECIAL</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link active ms-2 text-light-emphasis" aria-current="page" href="#">BEST SELLERS <br>BRACELETS</a>
+              </li>
+              <li class="nav-item ">
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-text-body text-body border-0 ms-2 text-light-emphasis  " data-bs-toggle="modal" data-bs-target="#exampleModal">
+   SHOP BY COLLECTION <i class="fa-solid fa-angle-down"></i> <br> <a class="nav-link active  me-3 text-light-emphasis" aria-current="page" href="#">RINGS
+     <Span class="ms-3 me-1">CONTACT US</Span></a>
+  </button>
+  <!-- Modal -->
+  <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+        </div>
+        <div class="modal-body ">
+         <p class="text-secondary">
+            Waterproof Collection
+              Celeb Style
+              <br>
+              Personalised Baubles
+              <br>
+              Gifts under 1500
+              <br>
+              What's New?
+              <br>
+              Stone Treasures
+              <br>
+              Vintage Beauties
+         </p>
+        </div>
+      </div>
+    </div>
+  </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active ms-2 text-light-emphasis" aria-current="page" href="#"> GIFT GUIDE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active ms-2 text-light-emphasis" aria-current="page " href="#">NECKLACES</a>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active ms-2 text-body-secondary" aria-current="page" href="#">EARRINGS</a>
+              </li>
+            <div  class="bars ms-3 mt-4">  
+               <a href=""><i class="fa-solid fa-magnifying-glass ms-2 text-dark"></i></a>
+               <a href=""><i class="fa-regular fa-user ms-3 text-dark"></i></a>
+                <a href=""><i class="fa-regular fa-heart ms-3 text-dark"></i></a>
+                <a href=""><i class="fa-solid fa-bag-shopping ms-3 text-dark"></i></a>
+            </div>
+            </ul>
+        </div>
+        </div>
+      </nav>
+
+      <!-- carousel -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://inayaaccessories.com/cdn/shop/files/personalised_16d4454e-1d20-45df-a562-cd739dec1ec3.webp?v=1721883738" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="mb-4 text-dark">YOUR HUNT FOR THE PREFECT GIFT ENDS HERE</h4>
+              <h3 class="mb-4 text-dark"><b> PERSONALISED COLLECTION</b></h3>
+             <button id="btn" class="border-0">VIEW COLLECTION</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img height="600px" src="https://elle.in/wp-content/uploads/2023/03/Untitled-design-2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1  class="mb-4 text-dark">MOONSOON DROP</h1>
+              <h4 class="mb-4 text-dark"><b>SALE IS LIVE | UPTO 30% OFF</b></h4>
+              <button id="btn" class="border-0">SHOPE SALES</button>
+            </div>
+          </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--  -->
+        <div id="head" class="row  ">
+          <div class="col mt-5 me-4 ms-2"><img width="150px" src="./images/waterproof.png" alt=""></div>
+          <div  class="col mt-5 ms-1"><img  width="150px" src="./images/images (5).png" alt=""></div>
+          <div class="col mt-5 ms-3"><img  width="140px" src="./images/truck.png" alt=""></div>
+          <div class="col mt-5 ms-3 "> <img  width="130px" src="./images/exchange.png" alt=""></div>
+          <div class="col ms-5"> <img  width="270px" src="./images/361952779_18035247112515783_9047887968363336037_n-removebg-preview.png" alt=""></div>
+        </div>
+    <div class="text">
+       <p> Waterproof <br>jewellery</p>
+       <p>   6 Months<br>Warranty</p>
+        <p>  Free<br>Shipping</p>
+         <p> Easy <br>Exchange/Returns</p>
+    </div>
+    <!-- card 1 -->
+     <h1 class="most-love text-center ">MOST LOVED</h1>
+     <div class=" spll d-flex  ">
+       <div class=" card-love mt-4 border-0 p-3" style="width: 25rem;">
+        <img  height="350px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI8QrbT4K8HZlmB2QATaQgAiyu-SYOzgiGbGJmrzQ5QIx6mGlR" class=" img-1 card-img-top" alt="...">
+        <p class="text-center">18Kt Gold Plated Monsoon set of three Classic and Textured Hoop <br> <span class=" rs text-decoration-line-through">Rs. 1,999.00</span><span class="rs ms-1">Rs. 1,799.00</span></p>
+        <div class=" per card-body">
+          <button id="btn-1">-10%</button>
+          <div class="intro ">
+            <i class="fa-solid fa-bag-shopping icons"></i><br>
+            <i class="fa-regular fa-heart icons"></i><br>
+           <div class="arrows"> <i class="fa-solid fa-arrow-up icons"></i> <i class="fa-solid fa-arrow-down icons"></i></div>
+          </div>
+           <div class="search"><button class="quick border-0" ><i class="fa-solid fa-magnifying-glass icons"><span> Quick view</span></i></button></div>
+        </div>
+      </div>
+       <!-- card2 -->
+      <div class="card-love mt-4 border-0 p-3" style="width: 25rem;">
+        <img height="350px" src="https://inayaaccessories.com/cdn/shop/files/IMG_0306.jpg?v=1719491036&width=600" class="card-img-top" alt="...">
+        <p class="text-center">Personalised Charm Necklace Necklace, Kirron Kher  <br>
+          <spanb class="rs"> Rs. 1,099.00</spanb></p>
+        <div class=" per card-body">
+          <button id="btn-1">-10%</button>
+          <div class="intro ">
+            <i class="fa-solid fa-bag-shopping icons"></i><br>
+            <i class="fa-regular fa-heart icons"></i><br>
+           <div class="arrows"> <i class="fa-solid fa-arrow-up icons"></i> <i class="fa-solid fa-arrow-down icons"></i></div>
+          </div>
+           <div class="search"><button class="quick border-0" ><i class="fa-solid fa-magnifying-glass icons"><span> Quick view</span></i></button></div>
+        </div>
+      </div>
+   <!-- card3 -->
+   <div class="card-love mt-4 border-0 p-3" style="width: 25rem;">
+    <img height="350px" src="https://inayaaccessories.com/cdn/shop/files/2_ff069276-d560-4018-aa8f-6a8697a0b30e.jpg?v=1703499179&width=600" class="card-img-top" alt="...">
+      <p class="text-center">  18kt Gold Plated Statement Waterdrop Stud Earrings, Teardrop <br><span class="rs">Rs. 1,199.00</span></p>
+      <div class="per card-body">
+      <button id="btn-1">-6%</button>
+      <div class="intro ">
+        <i class="fa-solid fa-bag-shopping icons"></i><br>
+        <i class="fa-regular fa-heart icons"></i><br>
+       <div class="arrows"> <i class="fa-solid fa-arrow-up icons"></i> <i class="fa-solid fa-arrow-down icons"></i></div>
+      </div>
+       <div class="search"><button class="quick border-0" ><i class="fa-solid fa-magnifying-glass icons"><span> Quick view</span></i></button></div>
+    </div>
+  </div>
+   <!-- card4 -->
+   <div class="card-love mt-4 border-0 p-3" style="width: 25rem;">
+    <img height="350px" src="https://inayaaccessories.com/cdn/shop/files/IMG_6856.jpg?v=1721901461&width=600" class="card-img-top" alt="...">
+      <p class="text-center">18Kt Gold Plated Monsoon Pearl Bunch Drop Earrings, Ariel <br><span class=" rs text-decoration-line-through">Rs. 1,579.00  </span> <span class=" rs ms-1">  Rs.1,279.00 </span></p>
+      <div class="per card-body">
+      <button id="btn-1">-6%</button>
+      <div class="intro ">
+        <i class="fa-solid fa-bag-shopping icons"></i><br>
+        <i class="fa-regular fa-heart icons"></i><br>
+       <div class="arrows"> <i class="fa-solid fa-arrow-up icons"></i> <i class="fa-solid fa-arrow-down icons"></i></div>
+      </div>
+       <div class="search"><button class="quick border-0" ><i class="fa-solid fa-magnifying-glass icons"><span> Quick view</span></i></button></div>
+    </div>
+  </div>
+   <!-- card5 -->
+   <div class="card-love mt-4 border-0 p-3" style="width: 25rem;">
+    <img height="350px" src="https://inayaaccessories.com/cdn/shop/files/IMG_6831.jpg?v=1721905376&width=600" class="card-img-top" alt="...">
+   <p class="text-center">18Kt Gold Plated dainty Monsoon Pebble Stud Earrings, Sandy <br><span class="rs">Rs. 1,079.00 </span></p>
+    <div class="per card-body">
+      <button id="btn-1">-6%</button>
+      <div class="intro ">
+        <i class="fa-solid fa-bag-shopping icons"></i><br>
+        <i class="fa-regular fa-heart icons"></i><br>
+       <div class="arrows"> <i class="fa-solid fa-arrow-up icons"></i> <i class="fa-solid fa-arrow-down icons"></i></div>
+      </div>
+       <div class="search"><button class="quick border-0" ><i class="fa-solid fa-magnifying-glass icons"><span> Quick view</span></i></button></div>
+    </div>
+  </div>
+     </div>
+     <!--card2.1  -->
+         <div class=" links d-flex mt-5 justify-content-center">
+          <a id="link"  href=""> Necklace</a>
+          <a id="link"  href=""> Earrings</a>
+          <a id="link"  href=""> Rings</a>
+         </div>
+         <div class=" nec d-flex  ">
+           <div class=" card-love mt-4 border-0 p-3" style="width: 25rem;">
+            <img  height="450px" src="https://inayaaccessories.com/cdn/shop/files/IMG_6790.jpg?v=1721905941&width=600" class=" img-1 card-img-top" alt="...">
+            <p class="text-center">18Kt Gold Plated Monsoon set of three Classic and Textured Hoop <br> <span class=" rs text-decoration-line-through">Rs. 1,999.00</span><span class="rs ms-1">Rs. 1,799.00</span></p>
+            <div class=" perc card-body">
+              <button  id="btn-1">-10%</button>
+              <div class="intro-1 ">
+                <i class="fa-solid fa-bag-shopping icons"></i><br>
+                <i class="fa-regular fa-heart icons"></i><br>
+               <div class="arrows"> <i class="fa-solid fa-arrow-up icons"></i> <i class="fa-solid fa-arrow-down icons"></i></div>
+              </div>
+               <div class="search-2"><button class="quick border-0" ><i class="fa-solid fa-magnifying-glass icons"><span> Quick view</span></i></button></div>
+            </div>
+          </div>
+           <!-- card2 -->
+          <div class="card-love mt-4 border-0 p-3" style="width: 25rem;">
+            <img height="450px" src="https://inayaaccessories.com/cdn/shop/files/IMG_4572_cf7b62c3-a757-4a8a-9629-cd0d6091abaf.jpg?v=1721904941&width=600" class="card-img-top" alt="...">
+            <p class="text-center"> 18kt Personalised Charm  Charm Necklace Necklace, Kirron Kher  <br>
+              <spanb class="rs"> Rs. 1,099.00</spanb></p>
+            <div class=" perc card-body">
+              <button  id="btn-1">-10%</button>
+              <div class="intro-1 ">
+                <i class="fa-solid fa-bag-shopping icons"></i><br>
+                <i class="fa-regular fa-heart icons"></i><br>
+               <div class="arrows"> <i class="fa-solid fa-arrow-up icons"></i> <i class="fa-solid fa-arrow-down icons"></i></div>
+              </div>
+               <div class="search-2"><button class="quick border-0" ><i class="fa-solid fa-magnifying-glass icons"><span> Quick view</span></i></button></div>
+            </div>
+          </div>
+       <!-- card3 -->
+       <div class="card-love mt-4 border-0 p-3" style="width: 25rem;">
+        <img height="450px" src="https://inayaaccessories.com/cdn/shop/files/IMG_6813.jpg?v=1721901359&width=600" class="card-img-top" alt="...">
+          <p class="text-center">  18kt Gold Plated Statement Waterdrop Stud Earrings, Teardrop <br><span class="rs">Rs. 1,199.00</span></p>
+          <div class="perc card-body">
+          <button  id="btn-1">-6%</button>
+          <div class="intro-1 ">
+            <i class="fa-solid fa-bag-shopping icons"></i><br>
+            <i class="fa-regular fa-heart icons"></i><br>
+           <div class="arrows"> <i class="fa-solid fa-arrow-up icons"></i> <i class="fa-solid fa-arrow-down icons"></i></div>
+          </div>
+           <div class="search-2"><button class="quick border-0" ><i class="fa-solid fa-magnifying-glass icons"><span> Quick view</span></i></button></div>
+        </div>
+      </div>
+       <!-- card4 -->
+       <div class="card-love mt-4 border-0 p-3" style="width: 25rem;">
+        <img height="450px" src="https://inayaaccessories.com/cdn/shop/files/IMG_0306.jpg?v=1719491036&width=600" class="card-img-top" alt="...">
+          <p class="text-center">18Kt Gold Plated Monsoon Pearl Bunch Drop Earrings, Ariel <br><span class=" rs text-decoration-line-through">Rs. 1,579.00  </span> <span class=" rs ms-1">  Rs.1,279.00 </span></p>
+          <div class="perc card-body">
+          <button  id="btn-1">-6%</button>
+          <div class="intro-1 ">
+            <i class="fa-solid fa-bag-shopping icons"></i><br>
+            <i class="fa-regular fa-heart icons"></i><br>
+           <div class="arrows"> <i class="fa-solid fa-arrow-up icons"></i> <i class="fa-solid fa-arrow-down icons"></i></div>
+          </div>
+           <div class="search-2"><button class="quick border-0" ><i class="fa-solid fa-magnifying-glass icons"><span> Quick view</span></i></button></div>
+        </div>
+      </div>
+         </div>
+      <div class="mt-5 text-center ms-5">
+        <button type="button" class="btn btn-dark mt-5  border-0">Shop All</button>  
+      </div>
+ <!-- video -->
+ <a id="link" class="look"  href=""> SHOP THE LOOK</a>
+ <div id="myVideo" class="d-flex r">
+   <div class="slider ">
+    <div class="video-container ">
+        <video id="videoPlayer" controls >
+            <source src="https://cdn-cf.live2.ai/uploads/qwtix60fxr/video/transcoded/720p/06e826a5b8.mp4" type="video/mp4">
+        </video>
+    </div>
+  </div>
+  <div class="slider">
+    <div class="video-container">
+        <video id="videoPlayer" controls >
+            <source src="https://cdn-cf.live2.ai/uploads/qwtix60fxr/video/transcoded/720p/8019a89ff8.mp4" type="video/mp4">
+        </video>
+    </div>
+  </div>
+  <div class="slider">
+    <div class="video-container">
+        <video id="videoPlayer" controls >
+            <source src="https://cdn-cf.live2.ai/uploads/qwtix60fxr/video/transcoded/720p/93d4a5f3d6.mp4" type="video/mp4">
+        </video>
+    </div>
+  </div>
+  <div class="slider">
+    <div class="video-container">
+        <video id="videoPlayer" controls >
+            <source src="https://cdn-cf.live2.ai/uploads/qwtix60fxr/video/transcoded/720p/701f1b17dc.mp4" type="video/mp4">
+        </video>
+    </div>
+  </div>
+  <div class="slider">
+    <div class="video-container">
+        <video id="videoPlayer" controls >
+            <source src="https://cdn-cf.live2.ai/uploads/qwtix60fxr/video/transcoded/480p/e7590bac7c.mp4" type="video/mp4">
+        </video>
+    </div>
+  </div>
+  <div class="slider">
+    <div class="video-container">
+        <video id="videoPlayer" controls >
+            <source src="https://cdn-cf.live2.ai/uploads/qwtix60fxr/video/transcoded/720p/254c75fe96.mp4" type="video/mp4">
+        </video>
+    </div>
+  </div>
+ </div>
+ <!-- celeberity-->
+<h3 class="text-center mt-5">CELEBRITY STYLE</h3>
+ <div class="d-flex p-5">
+   <div class="card border-0 me-3" style="width: 27rem;">
+    <img src="  https://inayaaccessories.com/cdn/shop/files/28_f33e9646-17de-4897-9d0b-4e053a56d67c_540x.jpg?v=1698646665" class="card-img-top" alt="...">
+  </div>
+  <div class="card border-0 me-3 " style="width: 27rem;">
+    <img src="https://inayaaccessories.com/cdn/shop/files/website_celeb_posters_FINAL_SIZE_2.zip_-_32_540x.png?v=1721400244" class="card-img-top" alt="...">
+  </div>
+  <div class="card border-0 me-3" style="width: 27rem;">
+    <img src="https://inayaaccessories.com/cdn/shop/files/6_b5402779-ede8-4f4f-b7ae-705cda042908_540x.jpg?v=1698646319" class="card-img-top" alt="...">
+  </div>
+  <div class="card border-0 " style="width: 27rem;">
+    <img src="https://inayaaccessories.com/cdn/shop/files/website_celeb_posters_FINAL_SIZE_2.zip_-_37_540x.png?v=1721400244" class="card-img-top" alt="...">
+  </div> 
+</div>
+<!-- review -->
+ <h3 class="mt-5 text-center">Let customers speak for us!
+</h3>
+ <div class="d-flex justify-content-center p-5">
+  <div class="mt-4"> <div class="mt-5 pt-5"> <a href=""><i class="fa-solid fa-angle-left fa-lg me-3"></i></a></div></div>
+   <div class="card p-3 border-0 bg-body-secondary me-3 " style="width: 18rem;">
+    <div class="card-body text-center">
+      <h5 class="card-title"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h5>
+      <h6 class="card-subtitle mb-2 text-body-secondary">Pretty and Dainty
+      </h6>
+      <p class="card-text ">The earrings can be changed to with or without pearls. Both look great otherwise.</p>
+      <p ><b>Melli</b></p>
+    </div> 
+  </div>
+  <div class="card  p-3 border-0 bg-body-secondary me-3" style="width: 18rem;">
+    <div class="card-body text-center">
+      <h5 class="card-title"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></h5>
+      <h6 class="card-subtitle mb-2 text-body-secondary">Good quality</h6>
+      <p class="card-text">Thin earrings that fit in small piercing holes.
+        It is easy to use despite of its large size.</p>
+      <p><b>Deepika</b></p>
+    </div>
+  </div>
+  <div class="card border-0 bg-body-secondary p-3 " style="width: 18rem;">
+    <div class="card-body text-center">
+      <h5 class="card-title"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h5>
+      <h6 class="card-subtitle mb-2 text-body-secondary">Impressive Quality</h6>
+      <p class="card-text">Bought the earrings  as a gift for a friend and  she loved them. She wears them  almost every day to work!</p>
+      <p><b> Vasudha Mohan</b></p>
+    </div>
+  </div>
+ <div class="mt-4"> <div class="mt-5 pt-5"> <a href=""><i class="fa-solid fa-angle-right fa-lg ms-3"></i></a></div></div>
+ </div>
+<!-- footer -->
+<footer class="footer text-body-emphasis py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h6 class="foot">Contact Us</h6>
+        <p class="foot">Head Office: 103, Dhanuka House, Pm Road, Vile Parle East, Mumbai 400057, Maharashtra, India </p>
+         <p class="foot"> Whatsapp: +91 8355940180</p>
+         <i class="fa-brands fa-youtube ms-2"></i><i class="fa-brands fa-instagram ms-2"></i><i class="fa-brands fa-facebook ms-2"></i><i class="fa-brands fa-twitter ms-2"></i>
+      </div>
+      <div class="col-md-3">
+        <h6 class="foot">CUSTOMER SERVICES</h6>
+        <ul class=" list-unstyled ">
+          <li><a href="#" class=" text-body-emphasis text-decoration-none foot">FAQs</a></li>
+          <li><a href="#" class=" text-body-emphasis text-decoration-none">Privacy Policy</a></li>
+          <li><a href="#" class="text-body-emphasis text-decoration-none">Shipping & Delivery</a></li>
+          <li><a href="#" class="text-body-emphasis text-decoration-none">Terms And Conditions</a></li>
+          <li><a href="#" class="text-body-emphasis text-decoration-none">Exchange and Returns</a></li>
+          <li><a href="#" class="text-body-emphasis text-decoration-none">Track Your Order</a></li>
+          <li><a href="#" class="text-body-emphasis text-decoration-none">About us</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6 class="foot">COLLECTIONS</h6>
+        <ul class=" list-unstyled">
+          <li><a href="#" class="text-body-emphasis text-decoration-none">Waterproof Collection </a></li>
+          <li><a href="#" class="text-body-emphasis text-decoration-none">Best Sellers</a></li>
+          <li><a href="#" class="text-body-emphasis text-decoration-none">Dazzling Diamonds
+          </a></li>
+          <li><a href="#" class="text-body-emphasis text-decoration-none">Personalised Baubles</a></li>
+          <li><a href="#" class="text-body-emphasis text-decoration-none">Gift Guide</a></li>
+          <li><a href="#" class="text-body-emphasis text-decoration-none">Celeb Style</a></li>
+          <li><a href="#" class="text-body-emphasis text-decoration-none"></a>Valentine Collection</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h4 class="foot">LATEST FROM INAYA!</h4>
+        <p class="foot">Subscribe to our newsletter and stay updated with the latest offers and new collection launch. </p>
+        <a class="  text-body-emphasis text-decoration-none" placeholder="email" href="">Your email</a>
+<hr width="50%">
+        
+      </div>
+    </div>
+  </div>
+  <div class="  s-5 mt-5  ">
+    <p class=" mb-0 text-body-emphasis">&copy;Copyright © 2023 Inaya Accessories - All rights reserved. Designed by WIWMS</p>
+  </div>
+<div class=" text-end me-5">
+  <a href="#carouselExampleCaptions"><i class=" up fa-solid fa-angle-up fa-lg"></i></a>
+</div>
+</footer>
+</body>
+<!-- animation -- -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!--  -->
+<script>
+  const video = document.getElementById('videoPlayer');
+  video.addEventListener('mouseover', function() {
+    video.play();
+  });
+  video.addEventListener('mouseout', function() {
+    video.pause();
+  });
+</script>
+<!-- bootstrp -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
